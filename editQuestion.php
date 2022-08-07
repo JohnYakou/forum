@@ -2,7 +2,6 @@
     require('actions/users/securityAction.php');
     require('actions/questions/getInfosOfEditedQuestionAction.php');    
     require('actions/questions/editQuestionAction.php');  
-
 ?>
 
 <!DOCTYPE html>
