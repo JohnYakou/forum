@@ -37,7 +37,9 @@
                 ?>
                     <div class="card m-5">
                         <div class="card-header">
-                            <?= $question['titre']; ?>
+                            <a href="question.php?id=<?= $question['id'] ?>">
+                                <?= $question['titre']; ?>
+                            </a>
                         </div>
 
                         <br>
