@@ -48,7 +48,7 @@
 
                         <br>
 
-                        <div class="card-footer">Question posée par <?= $question['pseudo_auteur']; ?> le <?= $question['date_publication']; ?></div>
+                        <div class="card-footer">Question posée par <a href="profile.php?id=<?= $question['id_auteur'] ?>" target="_blank"> <?= $question['pseudo_auteur']; ?></a> le <?= $question['date_publication']; ?></div>
                     </div>
                 <?php
             }
